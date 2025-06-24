@@ -1,0 +1,5 @@
+pip install -r requirements.txt
+4. Run the bot:
+python-binance==1.0.16
+aiohttp==3.8.1
+python-dotenv

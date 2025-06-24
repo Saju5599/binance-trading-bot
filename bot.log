@@ -1,0 +1,6 @@
+2025-06-24 00:33:07,415 - ERROR - \u274c Error placing order: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2025-06-24 00:43:27,296 - ERROR - \u274c Error placing order: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2025-06-24 00:51:36,088 - ERROR - \u274c Binance API error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2025-06-24 01:11:13,663 - ERROR - \u274c Binance API error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2025-06-24 01:14:20,442 - ERROR - Binance API error: APIError(code=-1021): Timestamp for this request was 1000ms ahead of the server's time.
+2025-06-24 01:18:32,668 - INFO - Order successful: {'orderId': 4646118786, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ1d5dacd07d9f54e1024ef5', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.010', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1750708112280}
