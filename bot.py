@@ -56,13 +56,13 @@ class BasicBot:
                 raise ValueError("Unsupported order type")
 
             logging.info(f"Order successful: {order}")
-            print("✅ Order successful:", order)
+            print("Order successful:", order)
         except BinanceAPIException as e:
             logging.error(f"Binance API error: {e}")
-            print("❌ Binance API error:", e)
+            print("Binance API error:", e)
         except Exception as e:
             logging.error(f"Unexpected error: {e}")
-            print("❌ Unexpected error:", e)
+            print("Unexpected error:", e)
 
 if __name__ == "__main__":
     bot = BasicBot()
@@ -81,4 +81,4 @@ if __name__ == "__main__":
         bot.place_order(symbol, side, order_type, quantity, price)
     except Exception as e:
         logging.error(f"Input error: {e}")
-        print("❌ Invalid input.")
+        print("Invalid input.")
