@@ -66,7 +66,7 @@ class BasicBot:
 
 if __name__ == "__main__":
     bot = BasicBot()
-    print("📈 Welcome to Binance Testnet Trading Bot 📉")
+    print("Welcome to Binance Testnet Trading Bot")
 
     try:
         symbol = input("Enter symbol (e.g., BTCUSDT): ").upper()
